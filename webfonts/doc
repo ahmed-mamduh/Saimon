@@ -1,0 +1,35 @@
+<!-- START NAV SECTION -->
+
+<nav class="navbar d-flex navbar-expand-lg bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+    </div>
+  </div>
+</nav>
+
+<!-- END NAV SECTION -->
+
+<!-- START HOME SECTION -->
+<section>
+  <div id="home" class="first-section d-flex">
+    <div class="">
+      <h1
+        class="bg-danger intro-title mb-4 text-white d-flex align-items-center justify-content-center"
+      >
+        I am Morgan Freeman
+      </h1>
+    </div>
+  </div>
+</section>
+
+<!-- END HOME SECTION -->
+
+<!-- css -->
+
+/* shared style */ /* ================== */ *{ margin: 0; box-sizing:
+border-box; } .first-section { background-image:
+url(../assets/DevFoli-Img/intro-bg.jpg); height: 100vh; background-size: cover;
+background-attachment: fixed; background-size: cover; background-position:
+center center; }

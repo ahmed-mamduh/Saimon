@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* SECTION  ===========  shared styles   ========== */
+
+:root {
+  --main-color: rgb(32, 201, 151);
+}
+
+/* SECTION  =========== HEADER START  ========== */
+
+.home {
+  background-image: url("../assets/images/intro-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.home .slider {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.button-1 {
+  border: 2px solid var(--main-color);
+  transition: all 0.5s;
+}
+
+.button-1 a {
+  font-size: 1rem;
+  line-height: 3rem;
+  color: var(--main-color);
+}
+.button-1:hover {
+  background-color: var(--main-color);
+}
+.button-1:hover a {
+  color: white;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+/* SECTION  =========== HEADER END  ========== */
+/* SECTION  =========== NAVBAR START  ========== */
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: var(--main-color);
+}
+
+.nav-link {
+  margin-left: 15px;
+  color: #fff;
+}
+.nav-link:hover {
+  color: var(--main-color);
+}
+
+/* SECTION  =========== NAVBAR END    ========== */
+/* SECTION  =========== ABOUT START   ========== */
+
+
+.first-h3 {
+  font-size: 8rem;
+  color: #dee3e4;
+}
+.second-h3 {
+  font-size: 4rem;
+  color: #212529;
+  opacity: 0.8;
+}
+
+.section-title {
+  position: relative;
+}
+
+.second-h3::after {
+  content: "";
+  width: 20%;
+  border-bottom: solid 3px var(--main-color);
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+
+.about-info {
+  list-style: none;
+}
+.btn-2:hover .cv{
+           background-color: #20c970;
+}
+.cv {
+  color: white;
+  background-color: var(--main-color);
+  padding: 15px 40px;
+  border-radius: 50px;
+  border-width: 2px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 1s;
+  
+}
+.siomone{
+    color: var(--main-color);
+}
+
+.about_summary {
+width: 100%;
+}
+.about .about_summary {
+    /* position: relative; */
+    
+}
+.summary-item{
+    margin: auto;
+    position: relative;
+  
+}
+.summary-item::before{
+    content: "";
+    position: absolute;
+    height: 70px;
+    border: 1px solid var(--main-color);
+    margin: auto;
+    right: 45%;
+ 
+}
+
+
+
+/* SECTION  =========== ABOUT END    ========== */
+/* SECTION  =========== SERVICES START    ========== */
+
+.services-img img{
+    width:3rem;
+}
+
+
+/* SECTION  =========== SERVICES END    ========== */
